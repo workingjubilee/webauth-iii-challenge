@@ -4,7 +4,7 @@
   "description": "Homework",
   "main": "index.js",
   "scripts": {
-    "start": "index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.16.3",
     "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
